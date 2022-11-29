@@ -6,7 +6,7 @@
 
     <groupId>cn.zlebhs</groupId>
     <artifactId>easy-modbus</artifactId>
-    <version>RELEASE-1.0.0</version>
+    <version>RELEASE-1.0.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

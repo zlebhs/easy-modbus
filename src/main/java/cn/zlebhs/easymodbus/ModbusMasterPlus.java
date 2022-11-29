@@ -55,8 +55,12 @@ public class ModbusMasterPlus {
         this.worker = worker;
     }
 
+    public static ModbusMasterPlus wrap(ModbusMaster master, ExecutorService worker) {
+        return new ModbusMasterPlus(master, worker);
+    }
+
     public static ModbusMasterPlus wrap(ModbusMaster master) {
-        return new ModbusMasterPlus(master, Executors.newSingleThreadExecutor());
+        return wrap(master, Executors.newSingleThreadExecutor());
     }
 
     // 读
