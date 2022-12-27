@@ -6,7 +6,7 @@
 
     <groupId>cn.zlebhs</groupId>
     <artifactId>easy-modbus</artifactId>
-    <version>RELEASE-1.0.1</version>
+    <version>1.0.2-RELEASE</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.github.zlebhs</groupId>
             <artifactId>modbus4j</artifactId>
-            <version>3.1.0</version>
+            <version>3.1.2</version>
         </dependency>
     </dependencies>
 
